@@ -31,7 +31,13 @@ REQUIRED = [
     'skills/mdp-repo-permission-modes/SKILL.md',
 ]
 
-missing = [p for p in REQUIRED if not (ROOT / p).exists()]
+
+def find_missing(required: list[str], root: Path) -> list[str]:
+    """Return the subset of *required* paths that do not exist under *root*."""
+    return [p for p in required if not (root / p).exists()]
+
+
+missing = find_missing(REQUIRED, ROOT)
 if missing:
     print('Missing required MDP files:')
     for p in missing:
