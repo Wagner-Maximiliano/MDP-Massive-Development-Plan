@@ -1,6 +1,6 @@
 # What this project is looking to tackle
 
-Hw to build a great project plan that can be used from beguinning to end
+How to build a great project plan that can be used from beginning to end
 - Clear instructions
 - Interviewing
 - Covering all bases
