@@ -8,6 +8,10 @@ It does not replace Hermes. It defines how to use Hermes profiles, skills, Kanba
 
 This repository is in early v1 implementation.
 
+## Notes
+
+The `backups/skills-before-tightening-20260525T084708Z/` directory is a snapshot of `skills/` taken before the 2026-05-25 tightening pass, kept for reference.
+
 ## Core principles
 
 1. Small always-read core, on-demand skills for detail.
